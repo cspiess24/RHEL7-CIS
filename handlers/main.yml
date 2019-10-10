@@ -25,6 +25,7 @@
       enabled: yes
       masked: no
       state: reloaded
+  ignore_errors: yes
 
 - name: systemd restart var-tmp.mount
   become: yes
